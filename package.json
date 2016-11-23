@@ -5,14 +5,14 @@
   },
   "dependencies": {
     "JSONStream": "^1.1.1",
-    "npm-get-dependents": "^1.0.0",
+    "npm-get-dependents": "addaleax/npm-get-dependents#fix-concurrent-requests",
     "object-chunker": "^1.0.0",
     "readable-stream": "^2.1.2",
     "stream-sort": "^1.1.0"
   },
   "name": "npm-get-top-dependents",
   "description": "Get the top dependents of an npm package.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "directories": {
     "test": "test"
